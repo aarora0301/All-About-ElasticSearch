@@ -16,19 +16,19 @@ Create a new document or replace an existing document<br>
 
 1.Using your  own id: <br>
 ````
-PUT /{_index}/{_type}/{_id}<br>
+PUT /{_index}/{_type}/{_id}
 ````
 
 2.Autogenerating Id’s <br>
 ````
-POST /{_index}/{_type}/ <br>
+POST /{_index}/{_type}/
 ````
 
 ####  Retrieving a Document
 
 1. Fetching the entire document<br>
 ````
-GET /{_index}/{_type}/{_id}?pretty <br>
+GET /{_index}/{_type}/{_id}?pretty 
 ````
 
 2.Partially retrieving a document<br>
@@ -38,12 +38,12 @@ GET /{_index}/{type}/{id}?_source=fieldName1,fieldName2<br>
 
 3. Fetch all indices<br>
 ````
-GET /_cat/indices?v <br>
+GET /_cat/indices?v 
 ````
 
 4.Search for all Documents<br>
 ````
-GET /_mapping?pretty=true <br>
+GET /_mapping?pretty=true 
 ````
 
 5.Check if a Documents exists
