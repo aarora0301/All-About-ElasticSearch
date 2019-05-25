@@ -10,7 +10,7 @@ The class of object that the document represents (Like table in SQL)
 The unique identifier for the document (Like row in SQL)
 
 
-- Indexing a Document:
+#### Indexing a Document:
 
 Create a new document or replace an existing document<br>
 
@@ -24,7 +24,7 @@ PUT /{_index}/{_type}/{_id}<br>
 POST /{_index}/{_type}/ <br>
 ````
 
-- Retrieving a Document
+####  Retrieving a Document
 
 1. Fetching the entire document<br>
 ````
@@ -59,7 +59,7 @@ With found tag=true and will return the entire document<br>
 HEAD /{_index}/{type}/{id}
 ````
 
-- Updating a Document
+####  Updating a Document
 
 **Note**: Documents in Elasticsearch are immutable; we cannot change them. 
 Instead, if we need to update an existing document, we reindex or replace it<br>
@@ -82,7 +82,7 @@ network overhead of multiple requests. By reducing the time between the retriev
 steps, we also reduce the likelihood of there being conflicting changes from other processes.
 Objects are merged together, existing scalar fields are overwritten, and new fields are added. <br>
 
-- Creating a Document
+####  Creating a Document
 
 1.Create a document only if the document does not already exist.
 ````
@@ -94,7 +94,7 @@ POST /{_index}/{type}/
 PUT /{index}/{type}/{id}?op_type=create
 ````
 
-- Deleting a Document
+####  Deleting a Document
 ```
 DELETE /{index}/{type}/{id}
 ````
