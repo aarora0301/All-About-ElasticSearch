@@ -1,3 +1,3 @@
 # All-About-ElasticSearch
 
-- [Aggreagation](project-wiki/agrregations.md)
+- [Aggregation](project-wiki/agrregations.md)
