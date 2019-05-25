@@ -1,5 +1,7 @@
 ### Aggregations
 
+Below are the aggregation examples for [SampleData](project-wiki/SampleData.json)
+
 ###### Get Average of All Transactions
 
 `````
